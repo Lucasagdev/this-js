@@ -1,26 +1,26 @@
 'use strict'
-// console.log(this)
-// console.log(window)
-// console.log(window === this)
+console.log(this)
+console.log(window)
+console.log(window === this)
 
-// this.name = 'Lucas'
-// function saudar(){
-//     console.log('this no contexto da funcao', this)
-//     console.log('Olá, ', this.name)
-// }
+ this.name = 'Lucas'
+ function saudar(){
+     console.log('this no contexto da funcao', this)
+     console.log('Olá, ', this.name)
+/}
 
-// saudar()
+saudar()
 
-// let usuario = {
-//     nome: 'Lucas',
-//     saudar: function() {
-//         console.log('this no contexto do metodo', this)
+let usuario = {
+    nome: 'Lucas',
+    saudar: function() {
+      console.log('this no contexto do metodo', this)
 
-//         console.log('this.name no contexto do metodo', this.name)
-//     }
-// }
+      console.log('this.name no contexto do metodo', this.name)
+     }
+}
 
-// usuario.saudar()
+usuario.saudar()
 
 let comida = {
     nome: 'Brócolis',
